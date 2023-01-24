@@ -1,0 +1,9 @@
+.btn-common{
+    background: #B68C5A;
+    color: white;
+}
+.btn-common:hover{
+    background: #B68C5A;
+    color: white;
+    border: 1px solid rgb(67, 67, 156);
+}
