@@ -45,6 +45,10 @@
     bottom: 25%;
 }
 
+.footer{
+    background: #111111;
+    color: white;
+}
 @media screen and (max-width:576px) {
     #carousel-image1,  #carousel-image2,  #carousel-image3{
         
