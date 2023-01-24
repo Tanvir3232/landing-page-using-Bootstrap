@@ -1,3 +1,4 @@
+/* common button style */
 .btn-common{
     background: #B68C5A;
     color: white;
@@ -8,6 +9,7 @@
     border: 1px solid rgb(67, 67, 156);
 }
 
+/* banner section style  */
 .banner{
     background-image: url("../images/banner.png");
     background-position: center;
@@ -15,11 +17,12 @@
     width: 100%;
 }
 
+/* practice area section style  */
 .img-container{
     height: 120px;
 }
 
-
+/* our client feedback  section style  */
 #carousel-image1{
     background-image: url('../images/slider-1.jpg'),url('../images/Rectangle7.png');
     background-repeat: no-repeat;
@@ -44,11 +47,12 @@
 .client-info{
     bottom: 25%;
 }
-
+/* footer section style  */
 .footer{
     background: #111111;
     color: white;
 }
+/* Media query  */
 @media screen and (max-width:576px) {
     #carousel-image1,  #carousel-image2,  #carousel-image3{
         
