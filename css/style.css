@@ -18,3 +18,39 @@
 .img-container{
     height: 120px;
 }
+
+
+#carousel-image1{
+    background-image: url('../images/slider-1.jpg'),url('../images/Rectangle7.png');
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    height:500px;
+    background-size: cover;
+}
+#carousel-image2{
+    background-image: url('../images/slider-2.jpg'),url('../images/Rectangle7.png');
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    height:500px;
+    background-size: cover;
+}
+#carousel-image3{
+    background-image: url('../images/slider-3.jpg'),url('../images/Rectangle7.png');
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    height:500px;
+    background-size: cover;
+}
+.client-info{
+    bottom: 25%;
+}
+
+@media screen and (max-width:576px) {
+    #carousel-image1,  #carousel-image2,  #carousel-image3{
+        
+        color: aliceblue;
+    }
+    .client-info{
+        bottom: 10%;
+    }
+}
